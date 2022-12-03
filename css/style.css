@@ -10,10 +10,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 body {
   color: #2f363e;
@@ -24,4 +26,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
 }
