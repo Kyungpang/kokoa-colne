@@ -73,3 +73,12 @@
   margin-right: 0px;
   margin-left: 8px;
 }
+
+.reply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
