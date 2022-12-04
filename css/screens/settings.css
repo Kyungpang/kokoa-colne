@@ -1,0 +1,26 @@
+.settings-screen {
+  margin-top: 32px;
+}
+
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting-column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column:first-child i {
+  opacity: 0.9;
+  margin-right: 20px;
+}
+
+.settings__setting-column:last-child span {
+  opacity: 0.5;
+}
