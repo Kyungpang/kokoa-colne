@@ -21,6 +21,6 @@
   margin-right: 20px;
 }
 
-.settings__setting-column:last-child span {
+.settings__setting-column:last-child {
   opacity: 0.5;
 }
