@@ -83,8 +83,9 @@
   bottom: 0;
   width: 100%;
   background-color: white;
-  padding: 0px 20px;
+  padding: 5px 20px;
   box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply__column:first-child {
@@ -106,6 +107,7 @@
   padding: 15px;
   border: var(--main-border);
   border-radius: 35px;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
@@ -122,6 +124,7 @@
   top: 3px;
   right: 3px;
 }
+
 .reply__column button {
   background-color: var(--yellow);
   border: none;
@@ -136,4 +139,25 @@
 
 .reply__column button i {
   opacity: 1;
+}
+
+.reply__column:first-child,
+.fa-face-grin-wink,
+button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-grin-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within {
+  transform: translateY(57px);
+}
+
+.reply:focus-within input {
+  width: 93vw;
+  transform: translateX(-12%) translateY(-57px);
 }
