@@ -39,3 +39,7 @@
 .screen-header__icons .fa-gear:hover {
   animation: rotateGear 1s linear infinite;
 }
+
+.screen-header__icon:last-child {
+  position: relative;
+}

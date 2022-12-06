@@ -1,3 +1,8 @@
+.find-screen-header .newsDot {
+  top: -7px;
+  right: -6px;
+}
+
 .find-screen {
   margin-top: 134px;
 }
@@ -35,6 +40,15 @@
   align-items: center;
 }
 
+.open-post:nth-child(2) {
+  padding-bottom: 15px;
+  border-bottom: var(--main-border);
+}
+
+.open-post:nth-child(3) {
+  padding-top: 12px;
+}
+
 .open-post__title {
   font-weight: 600;
   margin-bottom: 12px;
@@ -43,6 +57,10 @@
 .open-post__hashtags {
   text-transform: uppercase;
   opacity: 0.6;
+}
+
+.open-post:nth-child(3) .open-post__hashtag::first-letter {
+  text-transform: uppercase;
 }
 
 .open-post__members {

@@ -37,13 +37,7 @@
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
-.nav__newsDot {
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
+.nav .newsDot {
   bottom: 28px;
   left: 29px;
 }
