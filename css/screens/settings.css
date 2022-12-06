@@ -3,12 +3,20 @@
 }
 
 .settings__setting {
-  padding: 25px 0;
+  padding: 26px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.settings__setting:nth-child(3) {
+  padding-bottom: 50px;
+}
+
+.settings__setting:nth-child(4) {
+  padding-top: 50px;
 }
 
 .settings__setting-column:first-child {
@@ -23,4 +31,11 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-notification {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
 }
