@@ -1,9 +1,22 @@
+.more-screen-header .newsDot {
+  top: -7px;
+  right: -6px;
+}
+
 .more-screen {
   margin-top: 109px;
 }
 
-.more-screen .icon-row {
+.more-screen .icon-row:nth-child(2) {
   margin-top: 35px;
+}
+
+.more-screen .icon-row:nth-child(3) {
+  margin-top: 60px;
+}
+
+.more-screen .icon-row__name {
+  font-size: 14px;
 }
 
 .more-suggestions {

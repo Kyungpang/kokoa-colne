@@ -30,8 +30,12 @@
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  opacity: 0.8;
+  opacity: 0.7;
   margin-bottom: 20px;
+}
+
+.open-chat__home-link {
+  opacity: 0.6;
 }
 
 .open-post {
@@ -59,8 +63,8 @@
   opacity: 0.6;
 }
 
-.open-post:nth-child(3) .open-post__hashtag::first-letter {
-  text-transform: uppercase;
+.open-post__hashtags:nth-child(2) {
+  text-transform: lowercase;
 }
 
 .open-post__members {
